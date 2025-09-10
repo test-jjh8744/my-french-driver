@@ -1,3 +1,4 @@
+import { getAssetPath } from "../../utils/assetPath";
 import { useState } from "react";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
@@ -50,7 +51,7 @@ export function ContactPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="assets/Nouveau site internet/HOME PAGE.jpeg" 
+            src={getAssetPath("Nouveau site internet/HOME PAGE.jpeg")} 
             alt="Contact My French Driver" 
             className="w-full h-full object-cover"
           />

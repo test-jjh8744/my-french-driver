@@ -1,3 +1,4 @@
+import { getAssetPath } from "../../utils/assetPath";
 import { About } from "../About";
 import { Card, CardContent } from "../ui/card";
 import { Badge } from "../ui/badge";
@@ -112,7 +113,7 @@ export function AboutPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="assets/Nouveau site internet/notre marque 1.jpg"
+            src={getAssetPath("Nouveau site internet/notre marque 1.jpg")}
             alt="About My French Driver"
             className="w-full h-full object-cover"
           />
@@ -194,7 +195,7 @@ export function AboutPage() {
 
             <div className="space-y-6">
               <ImageWithFallback
-                src="assets/Nouveau site internet/notre marque 2.jpeg"
+                src={getAssetPath("Nouveau site internet/notre marque 2.jpeg")}
                 alt="Paris luxury transportation"
                 className="w-full h-80 object-cover rounded-lg"
               />

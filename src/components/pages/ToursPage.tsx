@@ -1,3 +1,4 @@
+import { getAssetPath } from "../../utils/assetPath";
 import { ArrowLeft, Users, Briefcase, MapPin, Wine, Anchor } from "lucide-react";
 import { Button } from "../ui/button";
 import { CompositeOnWhiteImage } from "../ui/CompositeOnWhiteImage";
@@ -44,7 +45,7 @@ export function ToursPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="assets/Nouveau site internet/arc-de-triomphe.jpeg"
+            src={getAssetPath("Nouveau site internet/arc-de-triomphe.jpeg")}
             alt="Paris Tours"
             className="w-full h-full object-cover"
           />
@@ -106,7 +107,7 @@ export function ToursPage() {
               </div>
               <div className="relative">
                 <img 
-                  src="assets/Nouveau site internet/arc-de-triomphe.jpeg"
+                  src={getAssetPath("Nouveau site internet/arc-de-triomphe.jpeg")}
                   alt="Paris Tours"
                   className="w-full h-80 object-cover rounded-2xl"
                 />
@@ -132,7 +133,7 @@ export function ToursPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative">
                 <img 
-                  src="assets/Nouveau site internet/champagne tour .jpg"
+                  src={getAssetPath("Nouveau site internet/champagne tour .jpg")}
                   alt="Champagne Tour"
                   className="w-full h-80 object-cover rounded-2xl"
                 />
@@ -174,7 +175,7 @@ export function ToursPage() {
               </div>
               <div className="relative">
                 <img 
-                  src="assets/Nouveau site internet/pictures Our french regions/plage du debarquement 3.jpg"
+                  src={getAssetPath("Nouveau site internet/pictures Our french regions/plage du debarquement 3.jpg")}
                   alt="D-Day Landing Beaches"
                   className="w-full h-80 object-cover rounded-2xl"
                 />
@@ -205,7 +206,7 @@ export function ToursPage() {
               <div className="group cursor-pointer">
                 <div className="relative overflow-hidden rounded-2xl mb-4">
                   <img 
-                    src="assets/Nouveau site internet/pictures Our french regions/versailles .jpg"
+                    src={getAssetPath("Nouveau site internet/pictures Our french regions/versailles .jpg")}
                     alt="Versailles"
                     className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -220,7 +221,7 @@ export function ToursPage() {
               <div className="group cursor-pointer">
                 <div className="relative overflow-hidden rounded-2xl mb-4">
                   <img 
-                    src="assets/Nouveau site internet/pictures Our french regions/mont saint michel.jpg"
+                    src={getAssetPath("Nouveau site internet/pictures Our french regions/mont saint michel.jpg")}
                     alt="Mont Saint Michel"
                     className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -235,7 +236,7 @@ export function ToursPage() {
               <div className="group cursor-pointer">
                 <div className="relative overflow-hidden rounded-2xl mb-4">
                   <img 
-                    src="assets/Nouveau site internet/pictures Our french regions/giverny.jpeg"
+                    src={getAssetPath("Nouveau site internet/pictures Our french regions/giverny.jpeg")}
                     alt="Giverny"
                     className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -250,7 +251,7 @@ export function ToursPage() {
               <div className="group cursor-pointer">
                 <div className="relative overflow-hidden rounded-2xl mb-4">
                   <img 
-                    src="assets/Nouveau site internet/pictures Our french regions/fontainebleau .jpeg"
+                    src={getAssetPath("Nouveau site internet/pictures Our french regions/fontainebleau .jpeg")}
                     alt="Fontainebleau"
                     className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -265,7 +266,7 @@ export function ToursPage() {
               <div className="group cursor-pointer">
                 <div className="relative overflow-hidden rounded-2xl mb-4">
                   <img 
-                    src="assets/Nouveau site internet/pictures Our french regions/domaine de chantilly.jpg"
+                    src={getAssetPath("Nouveau site internet/pictures Our french regions/domaine de chantilly.jpg")}
                     alt="Chantilly"
                     className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -280,7 +281,7 @@ export function ToursPage() {
               <div className="group cursor-pointer">
                 <div className="relative overflow-hidden rounded-2xl mb-4">
                   <img 
-                    src="assets/Nouveau site internet/pictures Our french regions/chateau de la loire.jpg"
+                    src={getAssetPath("Nouveau site internet/pictures Our french regions/chateau de la loire.jpg")}
                     alt="Loire Valley"
                     className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105"
                   />

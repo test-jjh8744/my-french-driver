@@ -1,3 +1,4 @@
+import { getAssetPath } from "./assetPath";
 export function getAssetPath(path: string): string {
   // Remove any leading /src/assets/ or /assets/ and ensure clean path
   const cleanPath = path.replace(/^\/?(src\/)?assets\//, '');

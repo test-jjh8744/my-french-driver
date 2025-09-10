@@ -1,3 +1,4 @@
+import { getAssetPath } from "../../utils/assetPath";
 import { Card, CardContent } from "../ui/card";
 import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
@@ -111,7 +112,7 @@ export function DiplomacyPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="assets/Nouveau site internet/diplomatie.jpeg"
+            src={getAssetPath("Nouveau site internet/diplomatie.jpeg")}
             alt="Diplomatic transportation"
             className="w-full h-full object-cover"
           />

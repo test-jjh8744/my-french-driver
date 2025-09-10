@@ -1,3 +1,4 @@
+import { getAssetPath } from "../utils/assetPath";
 import { Card, CardContent } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
@@ -87,7 +88,7 @@ export function About() {
           <div className="space-y-6">
             <div className="relative">
               <ImageWithFallback
-                src="assets/Nouveau site internet/HOME PAGE.jpeg"
+                src={getAssetPath("Nouveau site internet/HOME PAGE.jpeg")}
                 alt="Paris luxury transportation"
                 className="w-full h-80 object-cover rounded-lg"
               />
@@ -96,12 +97,12 @@ export function About() {
             
             <div className="grid grid-cols-2 gap-4">
               <ImageWithFallback
-                src="assets/Nouveau site internet/notre marque 1.jpg"
+                src={getAssetPath("Nouveau site internet/notre marque 1.jpg")}
                 alt="Our brand"
                 className="w-full h-40 object-cover rounded-lg"
               />
               <ImageWithFallback
-                src="assets/Nouveau site internet/notre marque 2.jpeg"
+                src={getAssetPath("Nouveau site internet/notre marque 2.jpeg")}
                 alt="Professional service"
                 className="w-full h-40 object-cover rounded-lg"
               />

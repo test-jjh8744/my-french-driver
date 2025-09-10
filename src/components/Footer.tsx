@@ -1,3 +1,4 @@
+import { getAssetPath } from "../utils/assetPath";
 import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
 import { 
@@ -18,7 +19,7 @@ export function Footer() {
           <div>
             <div className="mb-6">
               <img 
-                src="assets/logo.png" 
+                src={getAssetPath("logo.png")} 
                 alt="My French Driver Logo" 
                 className="w-14 h-14 object-contain"
               />

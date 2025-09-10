@@ -1,3 +1,4 @@
+import { getAssetPath } from "../../utils/assetPath";
 import { Card, CardContent } from "../ui/card";
 import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
@@ -237,7 +238,7 @@ export function CorporatePage() {
 
             <div className="space-y-6">
               <ImageWithFallback
-                src="assets/Nouveau site internet/BUSINESS.jpeg"
+                src={getAssetPath("Nouveau site internet/BUSINESS.jpeg")}
                 alt="Corporate account management"
                 className="w-full h-80 object-cover rounded-lg"
               />

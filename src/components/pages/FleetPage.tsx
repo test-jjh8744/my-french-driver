@@ -1,3 +1,4 @@
+import { getAssetPath } from "../../utils/assetPath";
 import { Fleet } from "../Fleet";
 import { Card, CardContent } from "../ui/card";
 import { Badge } from "../ui/badge";
@@ -113,7 +114,7 @@ export function FleetPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="assets/Nouveau site internet/chateau fontainebleau.jpg"
+            src={getAssetPath("Nouveau site internet/chateau fontainebleau.jpg")}
             alt="Premium Mercedes fleet"
             className="w-full h-full object-cover"
           />

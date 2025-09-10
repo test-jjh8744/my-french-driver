@@ -1,3 +1,4 @@
+import { getAssetPath } from "../../utils/assetPath";
 import { Star, MapPin, ThumbsUp } from "lucide-react";
 
 interface Review {
@@ -128,7 +129,7 @@ export function ReviewsPage() {
           <div className="flex items-start gap-6">
             <div className="flex-shrink-0">
               <img 
-                src="assets/logo.png" 
+                src={getAssetPath("logo.png")} 
                 alt="My French Driver" 
                 className="w-16 h-16 object-contain rounded-lg border border-gray-200"
               />

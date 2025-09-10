@@ -1,3 +1,4 @@
+import { getAssetPath } from "../../utils/assetPath";
 import { Badge } from "../ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../ui/card";
 import { Button } from "../ui/button";
@@ -142,7 +143,7 @@ export function OtherTransfersPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="assets/Nouveau site internet/Louvre_Museum,_Paris_22_June_2014.jpeg" 
+            src={getAssetPath("Nouveau site internet/Louvre_Museum,_Paris_22_June_2014.jpeg")} 
             alt="Other Transfers" 
             className="w-full h-full object-cover"
           />

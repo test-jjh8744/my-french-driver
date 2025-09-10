@@ -1,3 +1,4 @@
+import { getAssetPath } from "../../utils/assetPath";
 import { Plane, Clock, Shield, MapPin, Users, Briefcase, Star, Phone } from "lucide-react";
 import { Button } from "../ui/button";
 
@@ -85,7 +86,7 @@ export function TransferPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="assets/Nouveau site internet/aiport transfer 1.jpeg"
+            src={getAssetPath("Nouveau site internet/aiport transfer 1.jpeg")}
             alt="Airport Transfers"
             className="w-full h-full object-cover"
           />
@@ -135,7 +136,7 @@ export function TransferPage() {
               </div>
               <div className="relative">
                 <img 
-                  src="assets/Nouveau site internet/aiport transfer 1.jpeg"
+                  src={getAssetPath("Nouveau site internet/aiport transfer 1.jpeg")}
                   alt="Airport Transfer"
                   className="w-full h-80 object-cover rounded-none"
                 />

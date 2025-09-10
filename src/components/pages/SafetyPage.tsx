@@ -1,3 +1,4 @@
+import { getAssetPath } from "../../utils/assetPath";
 import { Card, CardContent } from "../ui/card";
 import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
@@ -121,7 +122,7 @@ export function SafetyPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="assets/Nouveau site internet/notre marque 2.jpeg"
+            src={getAssetPath("Nouveau site internet/notre marque 2.jpeg")}
             alt="Safety & Standards"
             className="w-full h-full object-cover filter grayscale"
           />
@@ -290,7 +291,7 @@ export function SafetyPage() {
 
             <div className="space-y-6">
               <ImageWithFallback
-                src="assets/Nouveau site internet/notre flotte.jpeg"
+                src={getAssetPath("Nouveau site internet/notre flotte.jpeg")}
                 alt="Vehicle maintenance and safety inspection"
                 className="w-full h-80 object-cover rounded-lg"
               />

@@ -1,8 +1,8 @@
+import { getAssetPath } from "../utils/assetPath";
 import { Button } from "./ui/button";
 import { Card } from "./ui/card";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Star, Clock, Shield, Users } from "lucide-react";
-import getAssetPath from "@/utils/assetPath";
 
 import InfoCardDialog from './ui/info-card-dialog';
 

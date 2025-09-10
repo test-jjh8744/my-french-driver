@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Navigation } from "./components/Navigation";
 import { Footer } from "./components/Footer";
+import { getAssetPath } from "./utils/assetPath";
 
 // Pages
 import { HomePage } from "./components/pages/HomePage";
@@ -183,7 +184,7 @@ export default function App() {
           data-no-reveal
         >
           <img
-            src="assets/logo.png"
+            src={getAssetPath("logo.png")}
             alt="My French Driver Logo"
             className="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] object-contain animate-splash-zoom"
           />

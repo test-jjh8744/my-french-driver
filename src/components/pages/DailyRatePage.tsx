@@ -1,3 +1,4 @@
+import { getAssetPath } from "../../utils/assetPath";
 import { ArrowLeft, Users, Briefcase, Shield, Clock, MapPin, Star } from "lucide-react";
 import { Button } from "../ui/button";
 
@@ -111,7 +112,7 @@ export function DailyRatePage() {
               </div>
               <div className="relative">
                 <img 
-                  src="assets/Nouveau site internet/MISE A DISPO.jpeg"
+                  src={getAssetPath("Nouveau site internet/MISE A DISPO.jpeg")}
                   alt="Daily Rate Service"
                   className="w-full h-80 object-cover rounded-2xl"
                 />

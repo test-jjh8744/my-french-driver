@@ -1,3 +1,4 @@
+import { getAssetPath } from "../../utils/assetPath";
 import { Badge } from "../ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../ui/card";
 import { Button } from "../ui/button";
@@ -77,7 +78,7 @@ export function BrandPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="assets/Nouveau site internet/notre marque 1.jpg" 
+            src={getAssetPath("Nouveau site internet/notre marque 1.jpg")} 
             alt="My French Driver Brand" 
             className="w-full h-full object-cover filter grayscale"
           />
