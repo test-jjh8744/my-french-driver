@@ -6,11 +6,6 @@ import path from 'path';
 export default defineConfig({
   plugins: [react()],
   base: '/my-french-driver/',
-  build: {
-    target: 'esnext',
-    outDir: 'build',
-    sourcemap: true,
-  },
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
     alias: {
@@ -54,6 +49,9 @@ export default defineConfig({
         '@radix-ui/react-accordion@1.2.3': '@radix-ui/react-accordion',
         '@': path.resolve(__dirname, './src'),
       },
+    },
+    build: {
+      outDir: 'docs',
     },
     server: {
       port: 3000,

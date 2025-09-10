@@ -207,7 +207,7 @@ export function LongDistancePage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="/src/assets/Nouveau site internet/pictures Our french regions/chateau de la loire.jpg" 
+            src="assets/Nouveau site internet/pictures Our french regions/chateau de la loire.jpg" 
             alt="French Regions - Loire Valley" 
             className="w-full h-full object-cover"
           />

@@ -237,7 +237,7 @@ export function CorporatePage() {
 
             <div className="space-y-6">
               <ImageWithFallback
-                src="/src/assets/Nouveau site internet/BUSINESS.jpeg"
+                src="assets/Nouveau site internet/BUSINESS.jpeg"
                 alt="Corporate account management"
                 className="w-full h-80 object-cover rounded-lg"
               />

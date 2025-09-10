@@ -32,7 +32,7 @@ export function NewsPage() {
       time: "08:30",
       excerpt: "Fresh snowfall of 40cm overnight brings perfect powder conditions to major ski resorts.",
       content: "The French Alps have received exceptional snowfall over the past 48 hours, with Chamonix reporting 40cm of fresh powder and Val d'Isère receiving 35cm. Visibility is excellent and all major lifts are operational.",
-      image: "/src/assets/Nouveau site internet/EXCURSION .jpeg",
+      image: "assets/Nouveau site internet/EXCURSION .jpeg",
       priority: "high",
       tags: ["Snow Conditions", "Weather", "Ski Resorts"]
     },
@@ -44,7 +44,7 @@ export function NewsPage() {
       time: "14:20",
       excerpt: "State-of-the-art 8-person gondola reduces wait times and improves access to advanced slopes.",
       content: "Courchevel has officially opened its new high-speed gondola lift, connecting the 1850 level directly to the Saulire summit. The lift features heated seats and panoramic windows.",
-      image: "/src/assets/Nouveau site internet/chateau fontainebleau.jpg",
+      image: "assets/Nouveau site internet/chateau fontainebleau.jpg",
       priority: "medium",
       tags: ["Infrastructure", "Courchevel", "Ski Lifts"]
     },
@@ -56,7 +56,7 @@ export function NewsPage() {
       time: "11:45",
       excerpt: "Heavy traffic expected on A40 towards Chamonix due to weekend ski traffic. Alternative routes recommended.",
       content: "Weekend ski traffic is causing significant delays on the A40 motorway between Geneva and Chamonix. We recommend using alternative routes via Annecy or departing earlier to avoid peak hours.",
-      image: "/src/assets/Nouveau site internet/aiport transfer 1.jpeg",
+      image: "assets/Nouveau site internet/aiport transfer 1.jpeg",
       priority: "high",
       tags: ["Traffic", "Transportation", "Travel Advisory"]
     },
@@ -68,7 +68,7 @@ export function NewsPage() {
       time: "16:00",
       excerpt: "Renowned chef opens new mountain restaurant featuring contemporary Alpine cuisine.",
       content: "Chef Laurent Dubois has opened his new restaurant 'Sommet' in Val d'Isère, bringing Michelin-starred dining to the slopes with a focus on local Alpine ingredients and modern French cuisine.",
-      image: "/src/assets/Nouveau site internet/PARIS BY NIGHT.jpeg",
+      image: "assets/Nouveau site internet/PARIS BY NIGHT.jpeg",
       priority: "low",
       tags: ["Dining", "Val d'Isère", "Restaurants"]
     }
@@ -200,7 +200,7 @@ export function NewsPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="/src/assets/Nouveau site internet/PARIS BY NIGHT.jpeg"
+            src="assets/Nouveau site internet/PARIS BY NIGHT.jpeg"
             alt="Ski resort news and updates"
             className="w-full h-full object-cover"
           />

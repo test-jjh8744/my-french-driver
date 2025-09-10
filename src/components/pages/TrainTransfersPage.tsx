@@ -138,7 +138,7 @@ export function TrainTransfersPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="/src/assets/Nouveau site internet/1668738-diaporama.jpeg" 
+            src="assets/Nouveau site internet/1668738-diaporama.jpeg" 
             alt="Train Station Transfer" 
             className="w-full h-full object-cover"
           />

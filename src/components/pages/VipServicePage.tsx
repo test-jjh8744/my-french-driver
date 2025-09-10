@@ -193,7 +193,7 @@ export function VipServicePage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="/src/assets/Nouveau site internet/diplomatie.jpeg"
+            src="assets/Nouveau site internet/diplomatie.jpeg"
             alt="VIP luxury transportation"
             className="w-full h-full object-cover"
           />

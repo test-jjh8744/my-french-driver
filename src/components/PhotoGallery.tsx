@@ -15,42 +15,42 @@ export function PhotoGallery() {
   const galleryItems = useMemo(
     () => [
       {
-        src: "/src/assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe C baniere .png",
+        src: "assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe C baniere .png",
         alt: "Mercedes C-Class",
         title: "Mercedes C-Class",
         description: "Elegant and comfortable sedan perfect for business or leisure travel with premium amenities.",
         features: ["Leather seats", "Climate control", "Premium sound", "Wi-Fi available"]
       },
       {
-        src: "/src/assets/Nouveau site internet/PICTURES OF FLEET/classe E.png",
+        src: "assets/Nouveau site internet/PICTURES OF FLEET/classe E.png",
         alt: "Mercedes E-Class",
         title: "Mercedes E-Class",
         description: "Luxury business class sedan offering superior comfort and advanced technology.",
         features: ["Executive seating", "Advanced safety", "Charging ports", "Privacy glass"]
       },
       {
-        src: "/src/assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe V .jpg",
+        src: "assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe V .jpg",
         alt: "Mercedes V-Class",
         title: "Mercedes V-Class",
         description: "Spacious and versatile van ideal for group travel with premium comfort.",
         features: ["7 passenger seats", "Panoramic roof", "Flexible seating", "Large luggage space"]
       },
       {
-        src: "/src/assets/Nouveau site internet/notre flotte.jpeg",
+        src: "assets/Nouveau site internet/notre flotte.jpeg",
         alt: "Executive Fleet",
         title: "Executive Fleet",
         description: "Our complete luxury fleet ready to serve your transportation needs with style.",
         features: ["24/7 availability", "Professional drivers", "Immaculate condition", "Latest models"]
       },
       {
-        src: "/src/assets/Nouveau site internet/BUSINESS.jpeg",
+        src: "assets/Nouveau site internet/BUSINESS.jpeg",
         alt: "Business Travel",
         title: "Business Travel",
         description: "Premium business transportation solutions for corporate clients and executives.",
         features: ["Corporate accounts", "On-time guarantee", "Professional service", "Discretion assured"]
       },
       {
-        src: "/src/assets/Nouveau site internet/aiport transfer 1.jpeg",
+        src: "assets/Nouveau site internet/aiport transfer 1.jpeg",
         alt: "Airport Service",
         title: "Airport Service",
         description: "Reliable and punctual airport transfers with flight monitoring and meet & greet.",

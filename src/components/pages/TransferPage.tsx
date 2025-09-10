@@ -9,7 +9,7 @@ export function TransferPage() {
       description: "Top of the range for a unique experience in a refined sedan.",
       passengers: 2,
       suitcases: 2,
-      image: "/src/assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe C baniere .png"
+      image: "assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe C baniere .png"
     },
     {
       category: "Business Class",
@@ -17,7 +17,7 @@ export function TransferPage() {
       description: "Prestige and excellence, you are our VIP will appreciate the incomparable comfort of a luxurious sedan",
       passengers: 2,
       suitcases: 2,
-      image: "/src/assets/Nouveau site internet/PICTURES OF FLEET/classe E.png"
+      image: "assets/Nouveau site internet/PICTURES OF FLEET/classe E.png"
     },
     {
       category: "First Class",
@@ -25,7 +25,7 @@ export function TransferPage() {
       description: "It is the ultimate reference of high-end sedans. With LCD TVs and exceptional quality of materials.",
       passengers: 2,
       suitcases: 2,
-      image: "/src/assets/Nouveau site internet/notre flotte.jpeg"
+      image: "assets/Nouveau site internet/notre flotte.jpeg"
     },
     {
       category: "Van",
@@ -33,7 +33,7 @@ export function TransferPage() {
       description: "Take advantage of the many seats and the lounge layout of the most elegant minivan on the market.",
       passengers: 7,
       suitcases: 6,
-      image: "/src/assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe V .jpg"
+      image: "assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe V .jpg"
     }
   ];
 
@@ -85,7 +85,7 @@ export function TransferPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/Nouveau site internet/aiport transfer 1.jpeg"
+            src="assets/Nouveau site internet/aiport transfer 1.jpeg"
             alt="Airport Transfers"
             className="w-full h-full object-cover"
           />
@@ -135,7 +135,7 @@ export function TransferPage() {
               </div>
               <div className="relative">
                 <img 
-                  src="/src/assets/Nouveau site internet/aiport transfer 1.jpeg"
+                  src="assets/Nouveau site internet/aiport transfer 1.jpeg"
                   alt="Airport Transfer"
                   className="w-full h-80 object-cover rounded-none"
                 />

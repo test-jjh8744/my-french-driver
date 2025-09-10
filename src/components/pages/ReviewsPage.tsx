@@ -128,7 +128,7 @@ export function ReviewsPage() {
           <div className="flex items-start gap-6">
             <div className="flex-shrink-0">
               <img 
-                src="/src/assets/logo.png" 
+                src="assets/logo.png" 
                 alt="My French Driver" 
                 className="w-16 h-16 object-contain rounded-lg border border-gray-200"
               />

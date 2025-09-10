@@ -40,7 +40,7 @@ export function FleetPage() {
       },
       price: "From €80/hour",
       description: "Perfect for business travel and airport transfers with professional comfort and reliability.",
-      image: "/src/assets/Nouveau site internet/PICTURES OF FLEET/classe E.png"
+      image: "assets/Nouveau site internet/PICTURES OF FLEET/classe E.png"
     },
     {
       category: "First Class",
@@ -61,7 +61,7 @@ export function FleetPage() {
       },
       price: "From €120/hour",
       description: "Ultimate luxury for VIP transportation with unparalleled comfort and prestigious service.",
-      image: "/src/assets/Nouveau site internet/notre flotte.jpeg"
+      image: "assets/Nouveau site internet/notre flotte.jpeg"
     },
     {
       category: "Group Travel",
@@ -82,7 +82,7 @@ export function FleetPage() {
       },
       price: "From €140/hour",
       description: "Spacious luxury van perfect for group travel, family occasions, and corporate teams.",
-      image: "/src/assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe V .jpg"
+      image: "assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe V .jpg"
     }
   ];
 
@@ -113,7 +113,7 @@ export function FleetPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="/src/assets/Nouveau site internet/chateau fontainebleau.jpg"
+            src="assets/Nouveau site internet/chateau fontainebleau.jpg"
             alt="Premium Mercedes fleet"
             className="w-full h-full object-cover"
           />

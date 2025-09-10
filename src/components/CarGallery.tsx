@@ -30,7 +30,7 @@ export function CarGallery() {
       name: "Mercedes E-Class",
       category: "Business Class",
       description: "Perfect for executive travel and airport transfers with professional comfort.",
-      image: "/src/assets/Nouveau site internet/PICTURES OF FLEET/classe E.png",
+      image: "assets/Nouveau site internet/PICTURES OF FLEET/classe E.png",
       specs: {
         passengers: "1-3",
         luggage: "3 bags",
@@ -43,7 +43,7 @@ export function CarGallery() {
       name: "Mercedes S-Class",
       category: "First Class",
       description: "Ultimate luxury experience with VIP amenities and unparalleled comfort.",
-      image: "/src/assets/Nouveau site internet/notre flotte.jpeg",
+      image: "assets/Nouveau site internet/notre flotte.jpeg",
       specs: {
         passengers: "1-3",
         luggage: "4 bags",
@@ -56,7 +56,7 @@ export function CarGallery() {
       name: "Mercedes V-Class",
       category: "Group Travel",
       description: "Spacious luxury van perfect for group transportation and family travels.",
-      image: "/src/assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe V .jpg",
+      image: "assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe V .jpg",
       specs: {
         passengers: "1-7",
         luggage: "8+ bags",
@@ -69,7 +69,7 @@ export function CarGallery() {
       name: "Mercedes C-Class",
       category: "Sedan",
       description: "Top of the range for a unique experience in a refined sedan.",
-      image: "/src/assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe C baniere .png",
+      image: "assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe C baniere .png",
       specs: {
         passengers: "1-2",
         luggage: "2 bags",
@@ -82,7 +82,7 @@ export function CarGallery() {
       name: "Professional Service",
       category: "Complete Experience",
       description: "Professional chauffeurs and impeccably maintained vehicles for every occasion.",
-      image: "/src/assets/Nouveau site internet/notre marque 1.jpg",
+      image: "assets/Nouveau site internet/notre marque 1.jpg",
       specs: {
         passengers: "All Sizes",
         luggage: "Flexible",

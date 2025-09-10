@@ -86,7 +86,7 @@ export function AirportPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="/src/assets/Nouveau site internet/aiport transfer 1.jpeg"
+            src="assets/Nouveau site internet/aiport transfer 1.jpeg"
             alt="Airport transfer"
             className="w-full h-full object-cover"
           />

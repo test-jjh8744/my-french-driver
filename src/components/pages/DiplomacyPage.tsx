@@ -34,7 +34,7 @@ export function DiplomacyPage() {
         'Multilingual professional drivers'
       ],
       link: 'corporate',
-      image: '/src/assets/Nouveau site internet/BUSINESS.jpeg'
+      image: '/assets/Nouveau site internet/BUSINESS.jpeg'
     },
     {
       id: 'vip-service',
@@ -48,7 +48,7 @@ export function DiplomacyPage() {
         'Customized experience packages'
       ],
       link: 'vip-service',
-      image: '/src/assets/Nouveau site internet/notre marque 2.jpeg'
+      image: '/assets/Nouveau site internet/notre marque 2.jpeg'
     },
     {
       id: 'close-protection',
@@ -62,7 +62,7 @@ export function DiplomacyPage() {
         'Emergency response protocols'
       ],
       link: 'close-protection',
-      image: '/src/assets/Nouveau site internet/notre flotte.jpeg'
+      image: '/assets/Nouveau site internet/notre flotte.jpeg'
     }
   ];
 
@@ -111,7 +111,7 @@ export function DiplomacyPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="/src/assets/Nouveau site internet/diplomatie.jpeg"
+            src="assets/Nouveau site internet/diplomatie.jpeg"
             alt="Diplomatic transportation"
             className="w-full h-full object-cover"
           />

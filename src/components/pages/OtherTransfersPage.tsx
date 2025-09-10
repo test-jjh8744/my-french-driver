@@ -142,7 +142,7 @@ export function OtherTransfersPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="/src/assets/Nouveau site internet/Louvre_Museum,_Paris_22_June_2014.jpeg" 
+            src="assets/Nouveau site internet/Louvre_Museum,_Paris_22_June_2014.jpeg" 
             alt="Other Transfers" 
             className="w-full h-full object-cover"
           />

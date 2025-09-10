@@ -170,7 +170,7 @@ export function MarriagePage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="/src/assets/Nouveau site internet/chateau vaux le vicompte.jpeg" 
+            src="assets/Nouveau site internet/chateau vaux le vicompte.jpeg" 
             alt="Wedding Transportation Paris" 
             className="w-full h-full object-cover"
           />

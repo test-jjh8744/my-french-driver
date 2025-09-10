@@ -183,7 +183,7 @@ export default function App() {
           data-no-reveal
         >
           <img
-            src="/src/assets/logo.png"
+            src="assets/logo.png"
             alt="My French Driver Logo"
             className="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] object-contain animate-splash-zoom"
           />

@@ -234,7 +234,7 @@ export function MedicalTourismPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="/src/assets/Nouveau site internet/champagne_vignoble-scaled.jpeg" 
+            src="assets/Nouveau site internet/champagne_vignoble-scaled.jpeg" 
             alt="Medical Tourism" 
             className="w-full h-full object-cover"
           />

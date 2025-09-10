@@ -7,22 +7,22 @@ export function ServicesList({ onServiceClick }: ServicesListProps) {
     {
       title: "TRANSFER",
       subtitle: "Airports, Train stations, Chateaux, Leisure parks...",
-      image: "/src/assets/Nouveau site internet/aiport transfer 1.jpeg"
+      image: "assets/Nouveau site internet/aiport transfer 1.jpeg"
     },
     {
       title: "DAILY RATE",
       subtitle: "A dedicated driver to go further",
-      image: "/src/assets/Nouveau site internet/MISE A DISPO.jpeg"
+      image: "assets/Nouveau site internet/MISE A DISPO.jpeg"
     },
     {
       title: "TOURS",
       subtitle: "Our excursions throughout France",
-      image: "/src/assets/Nouveau site internet/EXCURSION .jpeg"
+      image: "assets/Nouveau site internet/EXCURSION .jpeg"
     },
     {
       title: "EVENTS",
       subtitle: "Exceptional transport for your private and professional events",
-      image: "/src/assets/Nouveau site internet/BUSINESS.jpeg"
+      image: "assets/Nouveau site internet/BUSINESS.jpeg"
     }
   ];
 

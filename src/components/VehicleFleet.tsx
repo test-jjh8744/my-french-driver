@@ -9,7 +9,7 @@ export function VehicleFleet() {
       description: "Top of the range for a unique experience in a refined sedan.",
       passengers: 2,
       suitcases: 2,
-      image: "/src/assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe C baniere .png"
+      image: "assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe C baniere .png"
     },
     {
       category: "Business Class",
@@ -17,7 +17,7 @@ export function VehicleFleet() {
       description: "Prestige and excellence, you are our VIP will appreciate the incomparable comfort of a luxurious sedan",
       passengers: 2,
       suitcases: 2,
-      image: "/src/assets/Nouveau site internet/PICTURES OF FLEET/classe E.png"
+      image: "assets/Nouveau site internet/PICTURES OF FLEET/classe E.png"
     },
     {
       category: "First Class",
@@ -25,7 +25,7 @@ export function VehicleFleet() {
       description: "It is the ultimate reference of high-end sedans. With LCD TVs and exceptional quality of materials.",
       passengers: 2,
       suitcases: 2,
-      image: "/src/assets/Nouveau site internet/notre flotte.jpeg"
+      image: "assets/Nouveau site internet/notre flotte.jpeg"
     },
     {
       category: "Van",
@@ -33,7 +33,7 @@ export function VehicleFleet() {
       description: "Take advantage of the many seats and the lounge layout of the most elegant minivan on the market.",
       passengers: 7,
       suitcases: 6,
-      image: "/src/assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe V .jpg"
+      image: "assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe V .jpg"
     }
   ];
 

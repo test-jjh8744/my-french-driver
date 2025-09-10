@@ -83,7 +83,7 @@ export function PrivateTransportationPage() {
         "Climate control",
         "Premium sound system"
       ],
-      image: "/src/assets/Nouveau site internet/PICTURES OF FLEET/classe E.png",
+      image: "assets/Nouveau site internet/PICTURES OF FLEET/classe E.png",
       popular: false
     },
     {
@@ -97,7 +97,7 @@ export function PrivateTransportationPage() {
         "Panoramic sunroof",
         "Advanced safety systems"
       ],
-      image: "/src/assets/Nouveau site internet/notre flotte.jpeg",
+      image: "assets/Nouveau site internet/notre flotte.jpeg",
       popular: true
     },
     {
@@ -111,7 +111,7 @@ export function PrivateTransportationPage() {
         "Entertainment system",
         "Refreshment center"
       ],
-      image: "/src/assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe V .jpg",
+      image: "assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe V .jpg",
       popular: false
     }
   ];
@@ -231,7 +231,7 @@ export function PrivateTransportationPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="/src/assets/Nouveau site internet/EXCURSION .jpeg"
+            src="assets/Nouveau site internet/EXCURSION .jpeg"
             alt="Private ski resort transportation"
             className="w-full h-full object-cover"
           />

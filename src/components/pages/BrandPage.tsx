@@ -77,7 +77,7 @@ export function BrandPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="/src/assets/Nouveau site internet/notre marque 1.jpg" 
+            src="assets/Nouveau site internet/notre marque 1.jpg" 
             alt="My French Driver Brand" 
             className="w-full h-full object-cover filter grayscale"
           />

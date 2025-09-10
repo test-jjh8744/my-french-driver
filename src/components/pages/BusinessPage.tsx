@@ -35,7 +35,7 @@ export function BusinessPage() {
         'All Paris airports covered'
       ],
       link: 'airport',
-      image: '/src/assets/Nouveau site internet/aiport transfer 1.jpeg'
+      image: '/assets/Nouveau site internet/aiport transfer 1.jpeg'
     },
     {
       id: 'benefits',
@@ -49,7 +49,7 @@ export function BusinessPage() {
         'Employee satisfaction boost'
       ],
       link: 'business-benefits',
-      image: '/src/assets/Nouveau site internet/notre marque 1.jpg'
+      image: '/assets/Nouveau site internet/notre marque 1.jpg'
     },
     {
       id: 'personalization',
@@ -63,7 +63,7 @@ export function BusinessPage() {
         'Service style preferences'
       ],
       link: 'personalization',
-      image: '/src/assets/Nouveau site internet/MISE A DISPO.jpeg'
+      image: '/assets/Nouveau site internet/MISE A DISPO.jpeg'
     }
   ];
 
@@ -103,7 +103,7 @@ export function BusinessPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="/src/assets/Nouveau site internet/BUSINESS.jpeg"
+            src="assets/Nouveau site internet/BUSINESS.jpeg"
             alt="Business transportation"
             className="w-full h-full object-cover"
           />

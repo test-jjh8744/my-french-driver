@@ -36,7 +36,7 @@ export function SkiResortsPage() {
         'Professional local guides'
       ],
       link: 'tours',
-      image: '/src/assets/Nouveau site internet/EXCURSION .jpeg'
+      image: '/assets/Nouveau site internet/EXCURSION .jpeg'
     },
     {
       id: 'private-transportation',
@@ -50,7 +50,7 @@ export function SkiResortsPage() {
         'Flexible scheduling options'
       ],
       link: 'private-transportation',
-      image: '/src/assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe V .jpg'
+      image: '/assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe V .jpg'
     },
     {
       id: 'news',
@@ -64,7 +64,7 @@ export function SkiResortsPage() {
         'Transportation alerts'
       ],
       link: 'news',
-      image: '/src/assets/Nouveau site internet/HOME PAGE.jpeg'
+      image: '/assets/Nouveau site internet/HOME PAGE.jpeg'
     }
   ];
 
@@ -74,7 +74,7 @@ export function SkiResortsPage() {
       distance: '1h 15min from Geneva',
       elevation: '1,035m - 3,842m',
       description: 'World-renowned ski resort at the foot of Mont Blanc',
-      image: '/src/assets/Nouveau site internet/pictures Our french regions/mont st michel 3.jpg',
+      image: '/assets/Nouveau site internet/pictures Our french regions/mont st michel 3.jpg',
       features: ['Extreme skiing', 'Glacier access', 'Historic resort']
     },
     {
@@ -82,7 +82,7 @@ export function SkiResortsPage() {
       distance: '2h 30min from Lyon',
       elevation: '1,550m - 3,456m',
       description: 'Premium ski destination in the Tarentaise Valley',
-      image: '/src/assets/Nouveau site internet/pictures Our french regions/chambord , les chateaux de la loire.jpg',
+      image: '/assets/Nouveau site internet/pictures Our french regions/chambord , les chateaux de la loire.jpg',
       features: ['Luxury amenities', 'Extensive ski area', 'Après-ski scene']
     },
     {
@@ -90,7 +90,7 @@ export function SkiResortsPage() {
       distance: '2h from Lyon',
       elevation: '1,260m - 3,230m',
       description: 'Exclusive resort known for luxury and fine dining',
-      image: '/src/assets/Nouveau site internet/pictures Our french regions/domaine de chantilly.jpg',
+      image: '/assets/Nouveau site internet/pictures Our french regions/domaine de chantilly.jpg',
       features: ['Michelin restaurants', 'Luxury shopping', 'Helicopter access']
     },
     {
@@ -98,7 +98,7 @@ export function SkiResortsPage() {
       distance: '2h 15min from Lyon',
       elevation: '1,450m - 3,230m',
       description: 'Heart of the Three Valleys ski area',
-      image: '/src/assets/Nouveau site internet/pictures Our french regions/versailles .jpg',
+      image: '/assets/Nouveau site internet/pictures Our french regions/versailles .jpg',
       features: ['Largest ski area', 'Family-friendly', 'Traditional architecture']
     }
   ];
@@ -162,7 +162,7 @@ export function SkiResortsPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="/src/assets/Nouveau site internet/EXCURSION .jpeg"
+            src="assets/Nouveau site internet/EXCURSION .jpeg"
             alt="French ski resorts"
             className="w-full h-full object-cover"
           />

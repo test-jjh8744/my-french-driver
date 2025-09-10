@@ -20,7 +20,7 @@ export function Services() {
       description: "Seamless transfers to/from CDG, Orly, and Beauvais airports with flight monitoring and meet & greet service.",
       features: ["Flight tracking", "Meet & greet", "Luggage assistance", "All airports covered"],
       price: "From €80",
-      image: "/src/assets/Nouveau site internet/aiport transfer 1.jpeg"
+      image: "assets/Nouveau site internet/aiport transfer 1.jpeg"
     },
     {
       icon: <Users className="w-8 h-8" />,
@@ -28,7 +28,7 @@ export function Services() {
       description: "Professional transportation for business meetings, conferences, and corporate events with dedicated account management.",
       features: ["Executive vehicles", "Billing management", "Regular routes", "24/7 support"],
       price: "From €100",
-      image: "/src/assets/Nouveau site internet/BUSINESS.jpeg"
+      image: "assets/Nouveau site internet/BUSINESS.jpeg"
     },
     {
       icon: <Calendar className="w-8 h-8" />,
@@ -36,7 +36,7 @@ export function Services() {
       description: "Elegant transportation for weddings, galas, and special occasions with luxury vehicles and professional service.",
       features: ["Luxury fleet", "Event coordination", "Multiple vehicles", "Special decorations"],
       price: "From €150",
-      image: "/src/assets/Nouveau site internet/diplomatie.jpeg"
+      image: "assets/Nouveau site internet/diplomatie.jpeg"
     },
     {
       icon: <MapPin className="w-8 h-8" />,
@@ -44,7 +44,7 @@ export function Services() {
       description: "Discover Paris and surrounding regions with our knowledgeable chauffeurs and comfortable vehicles.",
       features: ["Local expertise", "Flexible itinerary", "Multiple languages", "Photo stops"],
       price: "Half-day from €500",
-      image: "/src/assets/Nouveau site internet/EXCURSION .jpeg"
+      image: "assets/Nouveau site internet/EXCURSION .jpeg"
     }
   ];
 

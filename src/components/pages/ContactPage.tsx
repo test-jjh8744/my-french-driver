@@ -50,7 +50,7 @@ export function ContactPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="/src/assets/Nouveau site internet/HOME PAGE.jpeg" 
+            src="assets/Nouveau site internet/HOME PAGE.jpeg" 
             alt="Contact My French Driver" 
             className="w-full h-full object-cover"
           />

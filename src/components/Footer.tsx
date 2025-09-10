@@ -18,7 +18,7 @@ export function Footer() {
           <div>
             <div className="mb-6">
               <img 
-                src="/src/assets/logo.png" 
+                src="assets/logo.png" 
                 alt="My French Driver Logo" 
                 className="w-14 h-14 object-contain"
               />

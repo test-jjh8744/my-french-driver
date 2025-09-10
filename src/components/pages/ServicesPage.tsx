@@ -106,7 +106,7 @@ export function ServicesPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="/src/assets/Nouveau site internet/notre marque 1.jpg"
+            src="assets/Nouveau site internet/notre marque 1.jpg"
             alt="Premium transportation services"
             className="w-full h-full object-cover"
           />
@@ -184,10 +184,10 @@ export function ServicesPage() {
                 <div className={index % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}>
                   <ImageWithFallback
                     src={
-                      index === 0 ? "/src/assets/Nouveau site internet/aiport transfer 1.jpeg" :
-                      index === 1 ? "/src/assets/Nouveau site internet/BUSINESS.jpeg" :
-                      index === 2 ? "/src/assets/Nouveau site internet/diplomatie.jpeg" :
-                      "/src/assets/Nouveau site internet/EXCURSION .jpeg"
+                      index === 0 ? "assets/Nouveau site internet/aiport transfer 1.jpeg" :
+                      index === 1 ? "assets/Nouveau site internet/BUSINESS.jpeg" :
+                      index === 2 ? "assets/Nouveau site internet/diplomatie.jpeg" :
+                      "assets/Nouveau site internet/EXCURSION .jpeg"
                     }
                     alt={service.image}
                     className="w-full h-80 object-cover rounded-lg"

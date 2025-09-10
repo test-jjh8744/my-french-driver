@@ -8,7 +8,7 @@ export function Header() {
         <div className="flex items-center space-x-2">
           <div className="flex items-center space-x-3">
             <img 
-              src="/src/assets/logo.png" 
+              src="assets/logo.png" 
               alt="My French Driver Logo" 
               className="w-12 h-12 object-contain"
             />

@@ -25,7 +25,7 @@ export function Fleet() {
       description: "Perfect for business meetings and airport transfers with professional comfort.",
       price: "From €80/hour",
       badge: "Most Popular",
-      image: "/src/assets/Nouveau site internet/PICTURES OF FLEET/classe E.png"
+      image: "assets/Nouveau site internet/PICTURES OF FLEET/classe E.png"
     },
     {
       category: "First Class", 
@@ -36,7 +36,7 @@ export function Fleet() {
       description: "Ultimate luxury for VIP transportation and special occasions.",
       price: "From €120/hour",
       badge: "Premium",
-      image: "/src/assets/Nouveau site internet/notre flotte.jpeg"
+      image: "assets/Nouveau site internet/notre flotte.jpeg"
     },
     {
       category: "Group Travel",
@@ -47,7 +47,7 @@ export function Fleet() {
       description: "Spacious luxury van perfect for group travel and family occasions.",
       price: "From €140/hour",
       badge: "Family",
-      image: "/src/assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe V .jpg"
+      image: "assets/Nouveau site internet/PICTURES OF FLEET/mercedes classe V .jpg"
     }
   ];
 

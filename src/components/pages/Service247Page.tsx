@@ -125,7 +125,7 @@ export function Service247Page() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="/src/assets/Nouveau site internet/champagne tour .jpg" 
+            src="assets/Nouveau site internet/champagne tour .jpg" 
             alt="24/7 Service" 
             className="w-full h-full object-cover filter grayscale"
           />

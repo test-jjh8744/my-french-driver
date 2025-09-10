@@ -166,7 +166,7 @@ export function DisneylandTransfersPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="/src/assets/Nouveau site internet/disneyland-paris.jpeg" 
+            src="assets/Nouveau site internet/disneyland-paris.jpeg" 
             alt="Disneyland Paris" 
             className="w-full h-full object-cover"
           />

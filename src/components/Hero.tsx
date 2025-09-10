@@ -15,7 +15,7 @@ export function Hero() {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="/src/assets/Untitled video - Made with Clipchamp.mp4" type="video/mp4" />
+          <source src="assets/Untitled video - Made with Clipchamp.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="absolute inset-0 bg-black/50"></div>
