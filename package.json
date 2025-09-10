@@ -62,7 +62,7 @@
       "scripts": {
             "dev": "vite",
             "build": "vite build",
-      "postbuild": "node -e \"const fs=require('fs'); try{fs.copyFileSync('docs/index.html','docs/404.html')}catch(e){}; try{fs.writeFileSync('docs/.nojekyll','')}catch(e){}\"",
+            "postbuild": "node -e \"const fs=require('fs'); try{fs.copyFileSync('docs/index.html','docs/404.html')}catch(e){}; try{fs.writeFileSync('docs/.nojekyll','')}catch(e){}\"",
             "predeploy": "npm run build",
             "deploy": "git add docs && git commit -m \"Deploy to docs\" || echo no-changes && git push"
       }
