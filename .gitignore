@@ -1,9 +1,5 @@
-node_modules/
-.cache/
-temp-gh-pages/
-.vscode/
-.DS_Store
-npm-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-dist/
+.qodo
+
+
+#Ignore vscode AI rules
+.github\instructions\codacy.instructions.md
