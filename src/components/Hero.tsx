@@ -2,6 +2,7 @@ import { Button } from "./ui/button";
 import { Card } from "./ui/card";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Star, Clock, Shield, Users } from "lucide-react";
+import getAssetPath from "@/utils/assetPath";
 
 import InfoCardDialog from './ui/info-card-dialog';
 
@@ -12,10 +13,12 @@ export function Hero() {
         <video
           autoPlay
           muted
+          loop
           playsInline
+          preload="auto"
           className="w-full h-full object-cover"
         >
-          <source src="assets/Untitled video - Made with Clipchamp.mp4" type="video/mp4" />
+          <source src={getAssetPath("Untitled video - Made with Clipchamp.mp4")} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="absolute inset-0 bg-black/50"></div>
